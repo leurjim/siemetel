@@ -1,0 +1,37 @@
+:root {
+	--orange: #f46606;
+	--purple: #940765;
+	--black: #212121;
+	--gray: #4a4a4a;
+	--white: #fff;
+	--violet: #505050;
+	--font-size: 1.3rem;
+	--aladin: 'Aladin', cursive;
+	--rosario: 'Rosario', sans-serif;
+	--sans: 'Martel Sans', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: var(--sans);
+	background-color: var(--white);
+	color: var(--purple);
+	font-size: var(--font-size);
+	line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--purple);
+	font-family: var(--aladin);
+}

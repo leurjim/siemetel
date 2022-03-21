@@ -1,7 +1,28 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "new-project-seimetel",
+    siteUrl: "https://www.seimetelperu.com/",
+    title: "Seimetel Perú",
+    description: "Empresa dedicada a trabajos de Telecomunicaciones"
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'towers',
+        path: `${__dirname}/src/towers/`,
+      },
+    },
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+  ],
 };

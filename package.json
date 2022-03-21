@@ -12,11 +12,24 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "netlify": "netlify dev",
+    "prebuild": "netlify-lambda install"
   },
   "dependencies": {
-    "gatsby": "^4.4.0",
+    "@reach/dialog": "^0.16.2",
+    "babel-plugin-styled-components": "^2.0.6",
+    "gatsby": "^2.32.13",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-image": "^0.7.2",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-sharp": "^2.14.4",
+    "gatsby-plugin-styled-components": "^5.9.0",
+    "gatsby-source-filesystem": "^4.9.0",
+    "gatsby-transformer-sharp": "^2.12.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.3"
   }
 }
