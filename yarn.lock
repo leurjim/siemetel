@@ -11995,10 +11995,10 @@
   dependencies:
     "jsesc" "~0.5.0"
 
-"remark-mdx@^2.0.0-next.7":
+"remark-mdx@^2.0.0-next.4":
   "integrity" "sha512-TDnjSv77Oynf+K1deGWZPKSwh3/9hykVAxVm9enAw6BmicCGklREET8s19KYnjGsNPms0pNDJLmp+bnHDVItAQ=="
   "resolved" "https://registry.npmjs.org/remark-mdx/-/remark-mdx-2.0.0.tgz"
-  "version" "2.0.0-next.7"
+  "version" "2.0.0"
   dependencies:
     "mdast-util-mdx" "^2.0.0"
     "micromark-extension-mdxjs" "^1.0.0"

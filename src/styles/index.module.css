@@ -69,7 +69,22 @@
 	border-radius: 50%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+	.a {
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	.b {
+		grid-column: 1;
+		grid-row: 3;
+	}
+
+	.c {
+		grid-column: 1;
+		grid-row: 5;
+	}
+
 	.image-wrapper {
 		width: 400px;
 		height: 300px;
@@ -81,10 +96,10 @@
 	}
 
 	.decla {
-		top: 10px;
-		left: 10px;
+		top: -80px;
+		left: 100px;
 		width: 250px;
-		text-align: right;
+		text-align: center;
 		font-size: 1rem;
 		line-height: 1.5;
 		letter-spacing: 1px;
