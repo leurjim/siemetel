@@ -24,7 +24,7 @@
 .serv {
 	color: var(--orange);
 	font-family: var(--rosario);
-	font-size: 2rem;
+	font-size: clamp(1rem, 2.5vw, 2rem);
 	font-weight: bold;
 	text-align: left;
 }
@@ -32,7 +32,7 @@
 .list {
 	color: var(--gray);
 	font-family: var(--sans);
-	font-size: 1rem;
+	font-size: clamp(0.5rem, 2.5vw, 1rem);
 	line-height: 2;
 	text-align: left;
 	letter-spacing: 1px;

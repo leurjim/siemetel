@@ -41,7 +41,7 @@
 nav {
 	font-family: var(--rosario);
 	font-size: 80%;
-	padding: 1rem;
+	padding: 0.5rem;
 }
 
 nav ul {
@@ -53,6 +53,12 @@ nav ul {
 	justify-content: right;
 	align-items: right;
 	gap: 2rem;
+}
+
+@media (max-width: 500px) {
+	nav {
+		font-size: 0.75rem;
+	}
 }
 
 .wrapper {
