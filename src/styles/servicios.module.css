@@ -23,6 +23,7 @@
 
 .serv {
 	color: var(--orange);
+	font-family: var(--rosario);
 	font-size: 2rem;
 	font-weight: bold;
 	text-align: left;
@@ -31,30 +32,10 @@
 .list {
 	color: var(--gray);
 	font-family: var(--sans);
-	font-size: 1.2rem;
+	font-size: 1rem;
 	line-height: 2;
 	text-align: left;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	align-self: center;
-	width: 600px;
-}
-
-@media screen and (max-width: 1024px) {
-	.serv {
-		text-align: left;
-		font-size: 1.5rem;
-		line-height: 1.5;
-		letter-spacing: 1px;
-		word-spacing: 2px;
-	}
-
-	.list {
-		text-align: left;
-		font-size: 1rem;
-		line-height: 1.5;
-		letter-spacing: 1px;
-		word-spacing: 2px;
-		width: 400px;
-	}
 }

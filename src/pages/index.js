@@ -18,11 +18,11 @@ export default function IndexPage() {
               height={500}
             />
           </div>
-          <section className={box1}>
-            <h1>Seimetel</h1>
-          </section>
         </div>
         <div className={b}>
+          <section className={box1}>
+            <h1>SEIMETEL</h1>
+          </section>
           <p className={decla}>
           Confía en SEIMETEL. Tenemos el equipo, el conocimiento, la experiencia y las alianzas estratégicas necesarias para llevar a cabo todos los procesos relacionados con las infraestructuras de TI.
 

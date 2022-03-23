@@ -1,9 +1,40 @@
-.wrapper {
-	max-width: 1439px;
-	margin: 0 20px;
-	display: grid;
-	grid-gap: 10px;
-	background-color: var(--white);
+.header,
+.footer {
+	background: var(--black);
+	color: var(--white);
+	/* needed for the floated layout */
+	clear: both;
+	padding: 1rem;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	height: 80px;
+}
+
+.header a {
+	color: var(--orange);
+	display: inline-block;
+	padding: 0.5rem;
+	text-decoration: none;
+}
+
+.header a:focus,
+.header a:hover {
+	background: var(--orange);
+	color: var(--white);
+}
+
+.footer {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	font-family: var(--rosario);
+	font-size: 80%;
+	padding: 1rem;
 }
 
 /* navigation */
@@ -24,64 +55,8 @@ nav ul {
 	gap: 2rem;
 }
 
-.footer {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-	gap: 2rem;
-	font-family: var(--rosario);
-	font-size: 80%;
-	padding: 1rem;
-}
-
-@media screen and (min-width: 320px) {
-	.wrapper {
-		margin: 0 auto;
-	}
-
-	.header,
-	.footer {
-		background: var(--black);
-		color: var(--white);
-		grid-column: 1 / -1;
-		/* needed for the floated layout */
-		clear: both;
-		padding: 1rem;
-		border-radius: 5px;
-		margin-bottom: 10px;
-		height: 80px;
-	}
-
-	.header a,
-	.footer a {
-		color: var(--orange);
-		display: block;
-		padding: 0.1rem;
-		text-decoration: none;
-	}
-
-	.header a:focus,
-	.header a:hover,
-	.footer a:focus,
-	.footer a:hover {
-		background: var(--orange);
-		color: var(--white);
-	}
-
-	nav {
-		max-width: 1439px;
-		margin: 0 auto;
-	}
-}
-
-/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
-@supports (display: grid) {
-	.wrapper > * {
-		width: auto;
-		margin: 0;
-	}
+.wrapper {
+	margin: 3rem auto;
+	max-width: 800px;
+	background-color: var(--white);
 }
