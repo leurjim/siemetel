@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from '../components/layout.js';
 import { content, column1, column2, serv, list } from '../styles/servicios.module.css';
+import Galerias from '../components/galerias';
 
 export default function ServiciosPage() {
   return (
@@ -26,7 +27,8 @@ export default function ServiciosPage() {
           </ul>
         </div>
         <div className={column2}>
-          <h1>Imagenes</h1>
+          <h1 className={serv}>Galería de Imagenes</h1>
+          <Galerias />
         </div>
       </div>
     </Layout>

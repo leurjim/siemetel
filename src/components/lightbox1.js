@@ -7,10 +7,9 @@ import "@reach/dialog/styles.css"
 
 const LightboxContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
 `
-
 const PreviewButton = styled.button`
   background: transparent;
   border: none;
@@ -20,7 +19,7 @@ const PreviewButton = styled.button`
 
 export default class Lightbox extends Component {
   static propTypes = {
-    towerImages: PropTypes.array.isRequired, // eslint-disable-line
+    galeriaImages: PropTypes.array.isRequired,
   }
 
   constructor(props) {
@@ -33,14 +32,14 @@ export default class Lightbox extends Component {
   }
 
   render() {
-    const { towerImages } = this.props
+    const { galeriaImages } = this.props
     const { selectedImage, showLightbox } = this.state
     return (
       <Fragment>
         <LightboxContainer>
-          {towerImages.map(image => (
+          {galeriaImages.map(image => (
             <PreviewButton
-              kkey={image.node.childImageSharp.fluid.src}
+              key={image.node.childImageSharp.fluid.src}
               type="button"
               onClick={() =>
                 this.setState({ showLightbox: true, selectedImage: image })

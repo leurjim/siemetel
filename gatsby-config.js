@@ -21,6 +21,13 @@ module.exports = {
         path: `${__dirname}/src/towers/`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'galerias',
+        path: `${__dirname}/src/galerias/`,
+      },
+    },
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',

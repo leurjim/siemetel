@@ -20,7 +20,7 @@ export default function IndexPage() {
           </div>
         </div>
         <div className={b}>
-          <section className={box1}>
+        <section className={box1}>
             <h1>SEIMETEL</h1>
           </section>
           <p className={decla}>

@@ -8,16 +8,19 @@
 .encabezado {
 	color: var(--orange);
 	font-family: var(--rosario);
-	font-size: clamp(1rem, 2.5vw, 2rem);
+	font-size: 2rem;
 	font-weight: bold;
 	text-align: center;
 	align-self: center;
 }
 
 .mision {
+	top: 0;
+	width: 100%;
+	margin: 0;
 	color: var(--gray);
 	font-family: var(--sans);
-	font-size: clamp(0.5rem, 2.5vw, 1rem);
+	font-size: clamp(12px, 5vw, 20px);
 	line-height: 2;
 	text-align: center;
 	letter-spacing: 1px;
