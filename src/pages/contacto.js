@@ -1,20 +1,41 @@
 import React from "react";
 import Layout from '../components/layout.js';
+import { content } from '../styles/contact.module.css';
 
 export default function ContactoPage() {
   return (
     <Layout>
-      <form
-      name="contact-form"
-      method="post"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-      >
-        <input name="name" placeholder="Your Name" type="text" />
-        <input name="email" placeholder="name@name.com" type="email" />
-        <textarea name="message" />
-        <button>Send</button>
-      </form>
+      <div className={content}>
+        <fieldset>
+          <legend>Contáctenos</legend>
+          <p>Raúl Arias / Leao Urbina</p>
+          <p>Celular: 922111168 / 923337297</p>
+          <p>Correos: gerencia.seimetel@gmail.com</p>
+        </fieldset>
+        <fieldset className>
+          <legend>Ingrese su información</legend>
+          <form
+          name="contact-form"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          >
+            <label htmlFor="name">
+              Nombre
+              <input name="Nombre" type="text" />
+            </label>
+            <label htmlFor="email">
+              Email
+              <input name="email" type="email" />
+            </label>
+            <label htmlFor="message">
+              Mensaje
+              <textarea name="message" />
+            </label>
+            <button>Enviar</button>
+          </form>
+        </fieldset>
+      </div>
     </Layout>
   );
 }

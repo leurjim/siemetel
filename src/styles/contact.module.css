@@ -1,0 +1,49 @@
+.content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+fieldset {
+	display: grid;
+	gap: 1rem;
+	grid-column: span 2;
+	max-height: 600px;
+	overflow: auto;
+	color: var(--gray);
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+fieldset:first-child {
+	gap: 0;
+	font-size: 1.2rem;
+}
+
+label {
+	display: grid;
+	gap: 0;
+	align-content: start;
+}
+
+label + label {
+	margin-top: 1rem;
+}
+
+p {
+	margin: 0;
+}
+
+button {
+	font-size: 1.2rem;
+}
+
+button + button {
+	margin-left: 1rem;
+}
+
+legend {
+	font-size: 1.5rem;
+	color: var(--orange);
+	font-weight: bolder;
+}

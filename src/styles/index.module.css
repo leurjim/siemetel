@@ -34,10 +34,11 @@
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	color: var(--orange);
+	font-size: 2rem;
 }
 
 .decla {
-	font-size: clamp(12px, 5vw, 20px);
+	font-size: clamp(12px, 3vw, 20px);
 	font-weight: normal;
 	color: var(--gray);
 	text-align: center;

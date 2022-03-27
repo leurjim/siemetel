@@ -24,7 +24,7 @@ export default function IndexPage() {
             <h1>SEIMETEL</h1>
           </section>
           <p className={decla}>
-          Confía en SEIMETEL. Tenemos el equipo, el conocimiento, la experiencia y las alianzas estratégicas necesarias para llevar a cabo todos los procesos relacionados con las infraestructuras de TI.
+          Confía en <strong>Servicios e Implementación en Telecomunicaciones</strong>. Tenemos el equipo, el conocimiento, la experiencia y las alianzas estratégicas necesarias para llevar a cabo todos los procesos relacionados con las infraestructuras de TI.
 
           Nos integramos contigo para proporcionarte el empuje tecnológico totalmente alineado con tus procesos de negocio, con el modelo financiero que mejor te encaje.  
           </p>

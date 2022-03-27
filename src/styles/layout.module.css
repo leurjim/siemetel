@@ -11,7 +11,7 @@
 }
 
 .header a {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color: var(--orange);
 	display: inline-block;
 	border-radius: 5px;
@@ -35,14 +35,14 @@
 	align-items: center;
 	gap: 2rem;
 	font-family: var(--rosario);
-	font-size: 80%;
+	font-size: 1.2rem;
 	padding: 1rem;
 }
 
 /* navigation */
 nav {
 	font-family: var(--rosario);
-	font-size: 80%;
+	font-size: 100%;
 	padding: 0.5rem;
 }
 
