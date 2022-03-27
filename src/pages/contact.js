@@ -20,19 +20,19 @@ export default function ContactoPage() {
           data-netlify="true"
           data-netlify-honeypot="bot-field"
           >
-            <label htmlFor="name">
+            <label>
               Nombre
               <input name="name" type="text" />
             </label>
-            <label htmlFor="email">
+            <label>
               Email
               <input name="email" type="email" />
             </label>
-            <label htmlFor="message">
+            <label>
               Mensaje:
               <textarea name="message" />
             </label>
-            <button type="submit">Enviar</button>
+            <button>Enviar</button>
           </form>
         </fieldset>
       </div>
