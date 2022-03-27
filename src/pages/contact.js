@@ -12,7 +12,7 @@ export default function ContactoPage() {
           <p>Celular: 922111168 / 923337297</p>
           <p>Correos: gerencia.seimetel@gmail.com</p>
         </fieldset>
-        <fieldset className>
+        <fieldset>
           <legend>Ingrese su información</legend>
           <form
           name="contact-form"

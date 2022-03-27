@@ -30,9 +30,7 @@ export default function IndexPage() {
           </p>
         </div>
         <div className={c}>
-          <div className={gallery}>
-            <Towers />
-          </div>
+          <Towers />
         </div>
       </div>
     </Layout>
