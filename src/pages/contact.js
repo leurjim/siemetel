@@ -15,9 +15,10 @@ export default function ContactoPage() {
         <fieldset className>
           <legend>Ingrese su información</legend>
           <form
-          name="contact"
-          method="POST"
+          name="contact-form"
+          method="post"
           data-netlify="true"
+          data-netlify-honeypot="bot-field"
           >
             <label htmlFor="name">
               Nombre
