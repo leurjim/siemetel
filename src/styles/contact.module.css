@@ -26,20 +26,12 @@ label {
 	align-content: start;
 }
 
-label + label {
-	margin-top: 1rem;
-}
-
 p {
-	margin: 0;
+	margin: 10px;
 }
 
 button {
 	font-size: 1.2rem;
-}
-
-button + button {
-	margin-left: 1rem;
 }
 
 h1 {

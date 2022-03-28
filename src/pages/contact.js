@@ -53,7 +53,7 @@ export default function Contact() {
             <input type="hidden" name="form-name" value="contact" />
             <p hidden>
               <label>
-                Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+                No llenaste este campo: <input name="bot-field" onChange={handleChange} />
               </label>
             </p>
             <p>
