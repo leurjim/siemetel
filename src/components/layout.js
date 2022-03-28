@@ -39,7 +39,7 @@ export default function Layout({
               <Link to="/servicios">Servicios</Link>
             </li>
             <li>
-              <Link to="/contact">Contactenos</Link>
+              <Link to="/contact">Contacto</Link>
             </li>
           </ul>
         </nav>
