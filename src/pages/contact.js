@@ -5,7 +5,7 @@ import { content } from '../styles/contact.module.css';
 export default function ContactPage() {
   return (
     <Layout>
-      <form name="contact" netlify>
+      <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
   <p>
     <label>Name <input type="text" name="name" /></label>
   </p>
