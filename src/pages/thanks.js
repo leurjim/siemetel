@@ -7,7 +7,7 @@ export default function ThanksPage() {
   return (
     <Layout>
         <div>
-            <p className={para}>Gracias por contactarse con nosotros!!!</p>
+            <p className={para}>Gracias por contactarnos. En breve nos pondremos en contacto...!!!</p>
         </div>
     </Layout>
   );
