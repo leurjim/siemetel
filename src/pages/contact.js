@@ -36,8 +36,8 @@ export default function Contact() {
       <div className={content}>
         <div className={wrapper}>
           <h1>Contáctenos</h1>
-          <p>Raúl Arias / Leao Urbina</p>
-          <p>Celular: 922111168 / 923337297</p>
+          <p>Raúl Arias | Leao Urbina</p>
+          <p>Celular: 922111168 | 923337297</p>
           <p>Correo: gerencia.seimetel@gmail.com</p>
         </div>
         <div className={wrapper}>
